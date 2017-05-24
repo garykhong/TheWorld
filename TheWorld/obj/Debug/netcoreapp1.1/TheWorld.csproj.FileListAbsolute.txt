@@ -7,3 +7,12 @@ C:\Users\garykhong\Documents\GitHub\TheWorld\obj\Debug\netcoreapp1.1\TheWorld.cs
 C:\Users\garykhong\Documents\GitHub\TheWorld\obj\Debug\netcoreapp1.1\TheWorld.AssemblyInfo.cs
 C:\Users\garykhong\Documents\GitHub\TheWorld\obj\Debug\netcoreapp1.1\TheWorld.dll
 C:\Users\garykhong\Documents\GitHub\TheWorld\obj\Debug\netcoreapp1.1\TheWorld.pdb
+C:\Users\garykhong\Documents\GitHub\TheWorld solution\TheWorld\bin\Debug\netcoreapp1.1\TheWorld.deps.json
+C:\Users\garykhong\Documents\GitHub\TheWorld solution\TheWorld\bin\Debug\netcoreapp1.1\TheWorld.runtimeconfig.json
+C:\Users\garykhong\Documents\GitHub\TheWorld solution\TheWorld\bin\Debug\netcoreapp1.1\TheWorld.runtimeconfig.dev.json
+C:\Users\garykhong\Documents\GitHub\TheWorld solution\TheWorld\bin\Debug\netcoreapp1.1\TheWorld.dll
+C:\Users\garykhong\Documents\GitHub\TheWorld solution\TheWorld\bin\Debug\netcoreapp1.1\TheWorld.pdb
+C:\Users\garykhong\Documents\GitHub\TheWorld solution\TheWorld\obj\Debug\netcoreapp1.1\TheWorld.csprojResolveAssemblyReference.cache
+C:\Users\garykhong\Documents\GitHub\TheWorld solution\TheWorld\obj\Debug\netcoreapp1.1\TheWorld.AssemblyInfo.cs
+C:\Users\garykhong\Documents\GitHub\TheWorld solution\TheWorld\obj\Debug\netcoreapp1.1\TheWorld.dll
+C:\Users\garykhong\Documents\GitHub\TheWorld solution\TheWorld\obj\Debug\netcoreapp1.1\TheWorld.pdb
