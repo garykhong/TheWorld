@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using TheWorld.ViewModels;
 using TheWorld.Services;
 using Microsoft.Extensions.Configuration;
+using TheWorld.Models;
+using Microsoft.Extensions.Logging;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -15,16 +17,31 @@ namespace TheWorld.Controllers.Web
     {
         public MailService MailService { get; private set; }
         public IConfigurationRoot Config { get; private set; }
+        public IWorldRepository Repository { get; private set; }
+        public ILogger<AppController> Logger { get; private set; }
 
-        public AppController(MailService mailService, IConfigurationRoot config)
+        public AppController(MailService mailService, IConfigurationRoot config, 
+            IWorldRepository repository,
+            ILogger<AppController> logger)
         {
             this.MailService = mailService;
             this.Config = config;
+            this.Repository = repository;
+            this.Logger = logger;
         }
         // GET: /<controller>/
         public IActionResult Index()
         {
-            return View();
+            try
+            {
+                var data = this.Repository.GetAllTrips();
+                return View(data);
+            }
+            catch(Exception ex)
+            {
+                Logger.LogError($"Failed to get trips in Index page: {ex.Message}");
+                return Redirect("/error");
+            }            
         }
 
         public IActionResult Contact()
