@@ -3,7 +3,11 @@
     "ToAddress": "gary@khong.com"
   },
   "ConnectionStrings": {
-    "WorldContextConnection":  "Server=(localdb)\\MSSQLLocalDB;Database=TheWorldDb;Trusted_Connection=true;MultipleActiveResultSets=true"
-  }
+    "WorldContextConnection": "Server=(localdb)\\MSSQLLocalDB;Database=TheWorldDb;Trusted_Connection=true;MultipleActiveResultSets=true"
+  },
+  "Keys": {
+    "BingKey":  "EdpsBtHYKWb2YRg4mP4O~V1FxNrSoHbbLej7cgqCkKg~Am9LJfXRCWQIdc8pQfx1ebHnBpf5RYabL9T3RxXglhEh7aQwUiN3DVg5z70htbkg"
+  } 
+
 
 }
