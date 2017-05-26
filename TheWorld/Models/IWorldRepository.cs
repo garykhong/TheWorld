@@ -11,6 +11,8 @@ namespace TheWorld.Models
         void AddTrip(Trip newTrip);
         Task<bool> SaveChangesAsync();
         Trip GetTripByName(string tripName);
-        void AddStop(string tripName, Stop newStop);
+        void AddStop(string tripName, Stop newStop, string username);
+        IEnumerable<Trip> GetTripsByUsername(string name);
+        Trip GetUserTripByName(string tripName, string name);
     }
 }
