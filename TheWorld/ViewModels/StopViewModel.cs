@@ -14,9 +14,8 @@ namespace TheWorld.ViewModels
         public string Name { get; set; }
         public double Latitude { get; set; }
         public double Longitude { get; set; }
-        [Required]
         public int Order { get; set; }
-        [Required]
+        [Required]        
         public DateTime Arrival { get; set; }
     }
 }

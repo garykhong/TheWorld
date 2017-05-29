@@ -10,7 +10,9 @@
     <Content Include="wwwroot\js\app-trips.js" />
     <Content Include="wwwroot\js\simpleControls.js" />
     <Content Include="wwwroot\js\site.js" />
+    <Content Include="wwwroot\js\tripEditorController.js" />
     <Content Include="wwwroot\js\tripsController.js" />
+    <Content Include="wwwroot\views\tripEditorView.html" />
     <Content Include="wwwroot\views\waitCursor.html" />
   </ItemGroup>
   <ItemGroup>
@@ -27,5 +29,8 @@
   </ItemGroup>
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="1.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\views\tripsView.html" />
   </ItemGroup>  
 </Project>
